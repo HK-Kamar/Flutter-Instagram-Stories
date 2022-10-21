@@ -1,5 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.flutter_instagram_stories">
+    package="com.example.flutter_instagram_stories"><!--
+  ~ Created by Hüveyscan Kamar on 21.10.2022
+  ~  Copyright (c) 2022. All rights reserved.
+  ~  
+  -->
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
         android:label="flutter_instagram_stories"
         android:name="${applicationName}"
